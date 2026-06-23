@@ -116,6 +116,7 @@ sudo hydra -l admin -P password.txt 172.16.11.212 http-get-form \
 <img width="1016" height="835" alt="스크린샷 2026-06-23 130851" src="https://github.com/user-attachments/assets/85f82e7b-d4b5-4a62-b499-c905dbc57f5b" />
 
 <img width="1038" height="826" alt="스크린샷 2026-06-23 130844" src="https://github.com/user-attachments/assets/2daf3bcf-39e4-40b7-8fda-cbb0e9753ac0" />
+<br>
 
 
 ```bash
