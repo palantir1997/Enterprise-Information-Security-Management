@@ -3,6 +3,9 @@
 > 정보보호 / 웹 취약점 실습 학습 노트  
 > 실습 환경: DVWA (Damn Vulnerable Web Application), Kali Linux, SliTaz Linux
 
+<img width="746" height="320" alt="스크린샷 2026-06-23 172931" src="https://github.com/user-attachments/assets/42eccf70-2e87-4888-b14d-c5315e4dc537" />
+
+
 ## 목차
 1. [정보보호 인증제도 (ISMS-P)](#1-정보보호-인증제도-isms-p)
 2. [실습 환경 구성](#2-실습-환경-구성)
@@ -109,6 +112,11 @@ sudo hydra -l admin -P password.txt 172.16.11.212 http-get-form \
 3. 변경하고 싶은 값에 `$$` 마커 추가 (Hydra의 `^USER^`와 같은 역할)
 4. Payload(워드리스트) 설정 후 실행
 5. 응답들의 **Length(응답 길이)** 값이 다른 케이스를 찾기 → 다른 응답은 보통 "성공" 신호
+
+<img width="1016" height="835" alt="스크린샷 2026-06-23 130851" src="https://github.com/user-attachments/assets/85f82e7b-d4b5-4a62-b499-c905dbc57f5b" />
+
+<img width="1038" height="826" alt="스크린샷 2026-06-23 130844" src="https://github.com/user-attachments/assets/2daf3bcf-39e4-40b7-8fda-cbb0e9753ac0" />
+
 
 ```bash
 sudo apt install -y zaproxy   # ZAP(OWASP ZAP) 설치
